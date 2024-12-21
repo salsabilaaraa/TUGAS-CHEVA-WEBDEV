@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  box-sizing: 0;
+}
+
+header {
+  background-color: palevioletred;
+  text-align: center;
+  width: 700px;
+  height: 60px;
+  margin-bottom: 5px;
+}
+
+main,
+aside {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 250px;
+  background-color: palegreen;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* main, section {
+    background-color:plum;
+    text-align: center;
+    height: 100px;
+    display: flex; 
+
+} */
+
+main {
+  display: flex;
+  width: 100%;
+}
+
+main section {
+  background-color: powderblue;
+  height: 100px;
+  width: 60%;
+  margin-left: 5px;
+}
+
+footer {
+  margin-top: 5px;
+  background-color: palevioletred;
+  text-align: center;
+  width: 700px;
+  height: 60px;
+}
